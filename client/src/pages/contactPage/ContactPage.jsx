@@ -10,6 +10,9 @@ const ContactPage = () => {
 	const error = useSelector((state) => state.post_product.error);
 	const [localData, setLocalData] = useState({ name: '', number: '' });
 
+
+	
+
 	useEffect(() => {
 		setLocalData(data);
 	}, [data]);

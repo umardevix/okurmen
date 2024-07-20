@@ -48,4 +48,4 @@ export const CourseListingPage = () => {
 			</div>
 		</section>
 	)
-}
+};
