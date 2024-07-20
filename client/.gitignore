@@ -1,24 +1,39 @@
-# Logs
-logs
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.myenv
+
+# Django stuff:
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pid
+*.swp
+*.swo
+*.swn
+*.coverage
+*.egg-info/
+*.eggs/
+*.sqlite3
+db.sqlite3
+*.db
 
-node_modules
-dist
-dist-ssr
-*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Windows
+Thumbs.db
+ehthumbs.db
