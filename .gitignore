@@ -10,30 +10,3 @@ __pycache__/
 .Python
 env/
 venv/
-ENV/
-env.bak/
-venv.bak/
-.myenv
-
-# Django stuff:
-*.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-*.pid
-*.swp
-*.swo
-*.swn
-*.coverage
-*.egg-info/
-*.eggs/
-*.sqlite3
-db.sqlite3
-*.db
-
-
-
-# Windows
-Thumbs.db
-ehthumbs.db
