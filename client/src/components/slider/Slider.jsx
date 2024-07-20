@@ -18,26 +18,20 @@ const responsive = {
 	},
 };
 const sliderImageUrl = [
-	//First image url
-	//Second image url
 	{
-		url: '/public/images/screen3.webp',
-	},
-	//Third image url
-	{
-		url: '/public/images/screen2.webp',
-	},
-
-	//Fourth image url
-
-	{
-		url: '/public/images/screen.webp',
+		url: '/public/images/guarde.JPG',
 	},
 	{
-		url: '/public/images/screen.webp',
+		url: '../../../public/images/jugie.jpeg',
 	},
 	{
-		url: '/public/images/screen2.webp',
+		url: '../../../public/images/syrgak.JPG',
+	},
+	{
+		url: '../../../public/images/photofootball.JPG',
+	},
+	{
+		url: '../../../public/images/smmAizirek.JPG',
 	},
 ];
 const Slider = () => {

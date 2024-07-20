@@ -11,7 +11,7 @@ const CompanyBlock = ({ category, title }) => {
 			<div className='block md:flex items-center justify-between gap-3 mt-3'>
 				<h1 className='text-3xl md:text-6xl font-semibold'>{title}</h1>
 				<p className='text-base text-[#D1D1D1] font-medium mt-2  md:w-[534px]'>
-					Биздин ураан - Окуучуларга код жазганды гана эмес, IT ааламында жашагында үйрөтүү.
+			  Биздин миссия - Биз окуучуларга код жазууну гана эмес алардын таалим тарбиясын дагы кароо
 				</p>
 			</div>
 
@@ -26,7 +26,7 @@ const CompanyBlock = ({ category, title }) => {
 				<div className='flex flex-col justify-center items-center px-[39px] py-6 border-t md:border-0'>
 					<img src='/public/images/yigilik.png' alt='' />
 					<p className='text-[#8F8F8F] mt-2'>Ийгиликтүү бүтүрүүчүлөр</p>
-					<h2 className='text-2xl md:text-4xl text-yellow-500 font-semibold mt-2 '>100+</h2>
+					<h2 className='text-2xl md:text-4xl text-yellow-500 font-semibold mt-2 '>200+</h2>
 				</div>
 				<div className='flex flex-col justify-center items-center px-[39px] py-6 border-t md:border-0'>
 					<img src='/public/images/practica.png' alt='' />
@@ -36,7 +36,7 @@ const CompanyBlock = ({ category, title }) => {
 				<div className='flex flex-col justify-center items-center px-[39px] py-6 border-t md:border-0'>
 					<img src='/public/images/kyzmatker.png' alt='' />
 					<p className='text-[#8F8F8F] mt-2'>Кызматкерлер</p>
-					<h2 className='text-2xl md:text-4xl text-yellow-500 font-semibold mt-2 '>15+</h2>
+					<h2 className='text-2xl md:text-4xl text-yellow-500 font-semibold mt-2 '>40+</h2>
 				</div>
 			</div>
 		</div>

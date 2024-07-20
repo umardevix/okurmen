@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 
 const navlinks = [
 	{
+		title: 'Башкы бет', 
+		link: '/',
+	},
+	{
 		title: 'Курстар',
 		link: '/course',
 	},

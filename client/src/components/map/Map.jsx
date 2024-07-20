@@ -7,8 +7,8 @@ const Map = () => {
 						Биздин <span className='text-yellow-500'>дарек</span>
 					</h1>
 					<div className='mt-3'>
-						<p>Бишкек, Куренкеев көчөсү, 138</p>
-						<p className='mt-2'>+996 (700) 232 400</p>
+						<p>Бишкек, Турусбеков көчөсү, 109/1</p>
+						<p className='mt-2'>+996 (500) 443 423</p>
 					</div>
 				</div>
 				<div className='w-full h-full mt-[60px] mb-[70px]'>

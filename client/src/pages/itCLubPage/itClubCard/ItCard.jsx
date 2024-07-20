@@ -11,34 +11,25 @@ const ItCard = () => {
 							<div className='bg-indigo-500 w-[82px] h-[82px] flex items-center justify-center rounded-[20px]'>
 								<img src="/public/images/vectoricon.png" alt="" />
 							</div>
-							<h2>Катышуунун шарты</h2>
+							<h2 className='font-semibold text-xl'>Катышуунун шарты</h2>
 
-							<p className='w-full md:w-[370px]'>IT клубка кошулуу үчүн тандаган багытыңызда
-								мыкты окууңуз зарыл. Проект менеджер
-								биринчи тест алат, андан кийин интервью
-								аркылуу тандайт.</p>
+							<p className='w-full md:w-[370px] font-normal'>IT клубка кошулуу үчүн тандаган багытыңызда мыкты окууңуз зарыл. Проект менеджер биринчи тест алат, андан кийин интервью аркылуу тандайт.</p>
 						</div>
 						<div className='bg-[#FFFFFF] w-full md:w-[400px] py-[53px] px-[32px] flex flex-col items-center justify-center gap-[24px]  rounded-[20px] shadow-md mt-[20px] md:mt-0'>
 							<div className='bg-indigo-500 w-[82px] h-[82px] flex items-center justify-center rounded-[20px]'>
 								<img src="/public/images/vectoricon.png" alt="" />
 							</div>
-							<h2>Катышуунун шарты</h2>
+							<h2 className='font-semibold text-xl'>Максаты</h2>
 
-							<p className='w-full md:w-[370px]'>IT клубка кошулуу үчүн тандаган багытыңызда
-								мыкты окууңуз зарыл. Проект менеджер
-								биринчи тест алат, андан кийин интервью
-								аркылуу тандайт.</p>
+							<p className='w-full md:w-[370px] font-normal'>Мыкты окуучулар реалдуу проекттер менен иштеп, IT компанияларга жумушка кирүүсүнө көмөктөшүү</p>
 						</div>
 						<div className='bg-[#FFFFFF] w-full md:w-[400px] py-[53px] px-[32px] flex flex-col items-center justify-center gap-[24px]  rounded-[20px] shadow-md mt-[20px] md:mt-0'>
 							<div className='bg-indigo-500 w-[82px] h-[82px] flex items-center justify-center rounded-[20px]'>
 								<img src="/public/images/vectoricon.png" alt="" />
 							</div>
-							<h2>Катышуунун шарты</h2>
+							<h2 className='font-semibold text-xl'>Мүмкүнчүлүктөр</h2>
 
-							<p className='w-full md:w-[370px]'>IT клубка кошулуу үчүн тандаган багытыңызда
-								мыкты окууңуз зарыл. Проект менеджер
-								биринчи тест алат, андан кийин интервью
-								аркылуу тандайт.</p>
+							<p className='w-full md:w-[370px] font-normal'>Коммерциялык буйрутмаларды аткарып кирише табуу, IT компанияларга экскурсия кылуу, алардан стажировкадан өтүү</p>
 						</div>
 					</div>
 
