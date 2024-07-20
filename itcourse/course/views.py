@@ -3,8 +3,8 @@ from rest_framework import viewsets
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-from .models import MasterClass, Technology, Course,NameNumber
-from .serializers import MasterClassSerializer, TechnologySerializer, CourseSerializer, NameNumberSerializer
+from .models import MasterClass, Technology, Course,NameNumber,CourseCard
+from .serializers import MasterClassSerializer, TechnologySerializer, CourseSerializer, NameNumberSerializer,CardSerializer
 
 
 class NameNumberViewSet(viewsets.ModelViewSet):
@@ -44,3 +44,6 @@ def create_course(request):
 
 
 
+class CardView(viewsets.ModelViewSet):
+    queryset = CourseCard.objects.all()
+    serializer_class = CardSerializer

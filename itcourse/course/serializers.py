@@ -1,6 +1,6 @@
 # course/serializers.py
 from rest_framework import serializers
-from .models import Technology, Course, MasterClass,NameNumber
+from .models import Technology, Course, MasterClass,NameNumber,CourseCard
 
 class TechnologySerializer(serializers.ModelSerializer):
     course_id = serializers.PrimaryKeyRelatedField(queryset=Course.objects.all(), source='course', write_only=True)
@@ -26,3 +26,8 @@ class NameNumberSerializer(serializers.ModelSerializer):
     class Meta:
         model = NameNumber
         fields = ['name', 'number']
+        
+class CardSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CourseCard
+        fields = '__all__'

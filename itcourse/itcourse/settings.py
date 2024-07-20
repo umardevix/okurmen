@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'course',
     'rest_framework',
-    'phonenumber_field',
     'corsheaders',
 ]
 
