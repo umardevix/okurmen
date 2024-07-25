@@ -9,26 +9,26 @@ const ItCLubSection = () => {
 				</div>
 				<div className='mt-[60px]'>
 					<h1 className='text-center text-4xl md:text-[53px] font-semibold'>Артыкчылыктар</h1>
-					<div className='grid grid-cols-2 gap-6 mt-[62px]'>
+					<div className='grid grid-cols-2 gap-9 mt-[62px]'>
 						<div>
 							<img src="/public/images/vectoricon.png" alt="" />
-							<h2 className='font-semibold text-xl'>Mentor</h2>
-							<p className='w-[176px]'>Lorem . Laboriosam unde provident cumque non voluptates nesciunt perferendis</p>
+							<h2 className='font-semibold text-xl'>Ментор</h2>
+							<p className='w-[176px] font-normal text-sm'>Стажерлор тажрыйбалуу адистерден колдоо алат.</p>
 						</div>
 						<div>
 							<img src="/public/images/vectoricon.png" alt="" />
-							<h2 className='font-semibold text-xl'>Mentor</h2>
-							<p className='w-[176px]'>Lorem . Laboriosam unde provident cumque non voluptates nesciunt perferendis</p>
+							<h2 className='font-semibold text-xl'>Билим берүү</h2>
+							<p className='w-[176px] font-normal text-sm'>Сиздин жөндөмүңүздү кеңейтүү үчүн ар кандай долбоорлор.</p>
 						</div>
 						<div>
 							<img src="/public/images/vectoricon.png" alt="" />
-							<h2 className='font-semibold text-xl'>Mentor</h2>
-							<p className='w-[176px]'>Lorem . Laboriosam unde provident cumque non voluptates nesciunt perferendis</p>
+							<h2 className='font-semibold text-xl'>Практикалык тажрыйба</h2>
+							<p className='w-[176px] font-normal text-sm'>Профессионалдуу IT чөйрөсүндө өз билимиңизди практикада колдонуу мүмкүнчүлүгү.</p>
 						</div>
 						<div>
 							<img src="/public/images/vectoricon.png" alt="" />
-							<h2 className='font-semibold text-xl'>Mentor</h2>
-							<p className='w-[176px]'>Lorem . Laboriosam unde provident cumque non voluptates nesciunt perferendis</p>
+							<h2 className='font-semibold text-xl'>Стажировкага мүмкүнчүлүк</h2>
+							<p className='w-[176px] font-normal text-sm'>Практиканы аяктагандан кийин жумушка орношуу мүмкүнчүлүгү.</p>
 						</div>
 					</div>
 				</div>

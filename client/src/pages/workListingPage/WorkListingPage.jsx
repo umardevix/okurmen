@@ -11,7 +11,7 @@ export const WorkListingPage = () => {
 	useEffect(() => {
 		const getProduct = async () => {
 			try {
-				const { data } = await axios.get(`http://127.0.0.1:8000/masterclasses/${id}/`)
+				const { data } = await axios.get(`http://127.0.0.1:8000/master-classes/${id}/`)
 				setProduct(data)
 			} catch (error) {
 				console.log('Ошибка', error)

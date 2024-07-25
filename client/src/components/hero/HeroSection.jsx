@@ -36,10 +36,10 @@ const HeroSection = () => {
 				<div className='flex items-center justify-center'>
 					<div className='text-center flex flex-col justify-center items-center gap-3 mt-48 mb-52'>
 						<h1 className='font-medium text-2xl md:text-5xl text-white '>
-							<span className='font-bold text-blue-500'>Окурмен</span> менен IT'ге кадам таштаңыз
+							<span className='font-bold text-blue-500'>ОКУРМЭН</span> менен IT'ге кадам таштаңыз
 						</h1>
 						<p className='mt-3 text-lg md:text-xl font-medium px-5 text-white'>
-							Биз менен код жазганды гана эмес, IT ааламында жашагында үйрөнөсүз
+							Биз менен код жазганды гана эмес, IT ааламында жашаганда үйрөнөсүз
 						</p>
 						<form onSubmit={handleSubmit}>
 							<div className='w-[300px] py-3 md:h-[152px] md:w-full  md:flex justify-center items-center gap-4 mt-5 border border-[#fff] rounded-3xl'>

@@ -9,7 +9,7 @@ const WorkSection = () => {
 	useEffect(() => {
 		const getProduct = async () => {
 			try {
-				const { data } = await axios.get('http://127.0.0.1:8000/masterclasses/')
+				const { data } = await axios.get('http://127.0.0.1:8000/master-classes/')
 				setProduct(data)
 			} catch (error) {
 				console.log('Ошибка', error)

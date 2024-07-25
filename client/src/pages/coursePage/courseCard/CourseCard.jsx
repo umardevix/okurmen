@@ -8,7 +8,7 @@ const CourseCard = ({ title, start_date, technologies, id }) => {
 			</div>
 			<div className='w-full ml-4'>
 				<h1 className='font-bold text-xl'>{title}</h1>
-				<p className='text-[#5C5C5C] mt-2'>12 ай + IT-club</p>
+				<p className='text-[#5C5C5C] mt-2'>6 ай + IT-club</p>
 				<ul className='flex items-center flex-wrap mt-3 gap-1 text-sm'>
 					{
 						technologies.map(el => (

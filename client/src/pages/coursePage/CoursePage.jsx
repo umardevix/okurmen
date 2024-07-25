@@ -44,9 +44,6 @@ const CoursePage = () => {
 					</h1>
 					<div className='block md:flex items-center justify-between mt-[40px] gap-[32px] flex-wrap'>
 						<Card />
-						<Card />
-						<Card />
-						<Card />
 					</div>
 				</div>
 			</div>
