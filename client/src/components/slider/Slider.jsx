@@ -52,7 +52,7 @@ const Slider = () => {
 					{sliderImageUrl.map((imageUrl, index) => {
 						return (
 							<div className='slider' key={index}>
-								<img src={imageUrl.url} alt='movie' />
+								<img className='w-full h-[500px] object-cover' src={imageUrl.url} alt='movie' />
 							</div>
 						);
 					})}
