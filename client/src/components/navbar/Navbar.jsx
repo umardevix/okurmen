@@ -14,9 +14,7 @@ const Navbar = ({ navlinks }) => {
 			<div className='sm:flex md:flex items-center justify-center gap-8 text-base font-normal text-[#1B1A1A]'>
 				<div className='flex justify-between gap-5'>
 					{navlinks.map((link, idx) => (
-						<Link key={idx} to={link.link}>
-							{link.title}
-						</Link>
+						<a key={idx} href={link.link}>{link.title}</a>
 					))}
 					<div>
 						<select onChange={e => handleChange(e)} className='outline-none'>

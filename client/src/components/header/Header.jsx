@@ -6,24 +6,20 @@ import { Link } from 'react-router-dom';
 
 const navlinks = [
 	{
-		title: 'Башкы бет', 
+		title: 'Башкы бет',
 		link: '/',
 	},
 	{
 		title: 'Курстар',
-		link: '/course',
+		link: '#course',
 	},
 	{
 		title: 'Компания жөнүндө',
-		link: '/company-info',
+		link: '#company-info',
 	},
 	{
 		title: 'Менторлор',
-		link: '/mentors',
-	},
-	{
-		title: 'Окуялар',
-		link: '/histori',
+		link: '#mentors',
 	},
 ];
 
@@ -69,13 +65,7 @@ const Header = () => {
 				<div className='md:hidden absolute bg-[#00000068] h-screen w-full mt-4 '>
 					<div className='absolute w-full z-20	 bg-white rounded-b-3xl pb-3 space-y-1 sm:px-3 md:px-0 shadow-lg transition-all ease-in-out duration-500'>
 						{navlinks.map((link, idx) => (
-							<Link
-								key={idx}
-								to={link.link}
-								className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'
-							>
-								{link.title}
-							</Link>
+							<a className='text-black hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium' key={idx} href={link.link}>{link.title}</a>
 						))}
 						<div className='flex items-center justify-center'>
 							<Button text={'Консультация'} />

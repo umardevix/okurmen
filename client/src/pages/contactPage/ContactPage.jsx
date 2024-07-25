@@ -27,12 +27,12 @@ const ContactPage = () => {
 		}));
 	};
 	return (
-		<div className='container'>
+		<div id='contact' className='container'>
 			<div className='block md:flex items-center justify-between gap-5 w-full mt-[114px] '>
 				<div className='w-full md:w-[519px] flex flex-col items-center justify-center'>
 					<h2 className='text-3xl font-semibold'>
 						Веб-сайт аркылуу катталып, каалаган курска
-						<span className='text-yellow-500'>10% арзандатуу</span> алыңыз!
+						<span className='text-yellow-500'> 10% арзандатуу</span> алыңыз!
 					</h2>
 					<img className='w-[300px] md:w-full mt-' src='/public/images/contact.png' alt='' />
 				</div>

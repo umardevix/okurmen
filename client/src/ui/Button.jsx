@@ -2,13 +2,15 @@
 
 const Button = ({ text }) => {
 	return (
-		<div>
-			<button
-				className=' py-2 px-6 	
+		<div >
+			<a href="#contact">
+				<button
+					className=' py-2 px-6 	
 bg-yellow-500 rounded-full text-white font-semibold'
-			>
-				{text}
-			</button>
+				>
+					{text}
+				</button>
+			</a>
 		</div>
 	);
 };

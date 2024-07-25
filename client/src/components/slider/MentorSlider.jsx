@@ -11,7 +11,7 @@ const MentorSlider = () => {
 		slidesToScroll: 1,
 	};
 	return (
-		<div className='container'>
+		<div id='mentors' className='container'>
 			<div className='mt-24'>
 				<h1 className='text-center mb-5 text-4xl font-semibold '>Mentor</h1>
 				<Slider {...settings}>

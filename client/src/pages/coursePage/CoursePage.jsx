@@ -20,7 +20,7 @@ const CoursePage = () => {
 	}, [])
 
 	return (
-		<section>
+		<section id='course'>
 			<div className='container'>
 				<div className='pt-16'>
 					<div className='border border-gray-300 flex items-center justify-center gap-1 w-[111px] px-2 py-2 rounded-xl '>
@@ -37,13 +37,6 @@ const CoursePage = () => {
 								<CourseCard key={item.id} {...item} />
 							))
 						}
-					</div>
-
-					<h1 className='text-center text-3xl md:text-5xl font-semibold text-black mt-[100px]'>
-						Негизги курстарга кошумча
-					</h1>
-					<div className='block md:flex items-center justify-between mt-[40px] gap-[32px] flex-wrap'>
-						<Card />
 					</div>
 				</div>
 			</div>

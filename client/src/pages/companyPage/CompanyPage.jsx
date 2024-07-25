@@ -2,7 +2,7 @@ import CompanyBlock from '../../ui/companyBlock/CompanyBlock';
 
 const CompanyPage = () => {
 	return (
-		<div className='container'>
+		<div id='company-info' className='container'>
 			<div className=' mt-[120px]'>
 				<h1 className='text-3xl text-center md:text-5xl font-semibold'>Компания жөнүндө</h1>
 				<p className='text-sm md:text-xl text-center font-medium py-3'>
